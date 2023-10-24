@@ -48,7 +48,8 @@ const itensRepository = {
             student.nome_professor, 
             student.nota_primeiro_semestre, 
             student.nota_segundo_semestre, 
-            student.numero_da_sala
+            student.numero_da_sala,
+            id
         ];
 
         database.run(sql, params, function(_err) {
